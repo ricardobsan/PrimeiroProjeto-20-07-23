@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 58, 82);
+    
+}
+
+#principal{
+    margin-top: 50px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px 1px #ffffff, 4px 4px 8px 1px #2e2e30;
+    font-family:  Bradley Hand, cursive;
+
+}
+h1{
+    color: rgb(19, 200, 255);
+    
+}
+
+#campo{
+    margin-bottom: 8px;
+    font-family:  Bradley Hand, cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    color: white;
+}
+#nasc{
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+}
+
+#botao{
+    margin: 20px;
+
+}
+
+#btn{
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Bradley Hand, cursive;
+}
+
+#btn:hover{
+    background-color:rgb(19, 200, 255);
+    color: white;
+}
+
+#ano{
+   margin-bottom: 8px;
+    color: white;
+    font-family:  Bradley Hand, cursive;
+
+}
+#resposta{
+    font-family: Bradley Hand, cursive;
+    width: 60%;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Luminari, fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+@media(max-width: 280px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+@media(max-width: 300px){
+    h1{
+        font-size: 1.2em;
+    }
+    .texto{
+        font-size: 0.8em;
+    }
+    #nasc{
+        width: 130px;
+        height: 20px;
+        text-align: center;
+    }
+    #btn{
+        width: 100px;
+        height: 30px;
+    }
+    #ano{
+        font-size: 0.8em; 
+    }
+}
